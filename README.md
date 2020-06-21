@@ -51,3 +51,19 @@ Example Output
 ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 
 NOTE TO SELF: Was not able to solve this one. Need more familiarity with map, foreach, tunary. Understanding that it is a 2D array is a benefit too.
+
+
+4) Array Difference
+
+//Note to self: Had help to completely solve all cases.
+//Original Algorithm with no help only satisfy certain test cases.
+
+Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
+
+It should remove all values from list a, which are present in list b.
+
+arrayDiff([1,2],[1]) == [2]
+
+If a value is present in b, all of its occurrences must be removed from the other:
+
+arrayDiff([1,2,2,2,3],[2]) == [1,3]
