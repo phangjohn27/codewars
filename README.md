@@ -81,3 +81,11 @@ Examples
 Notes
 
 Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
+
+6) Square Every Digit
+
+Welcome. In this kata, you are asked to square every digit of a number.
+
+For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1.
+
+Note: The function accepts an integer and returns an integer
